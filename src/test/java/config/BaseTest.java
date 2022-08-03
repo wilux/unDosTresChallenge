@@ -38,7 +38,7 @@ public class BaseTest {
             //If no browser passed throw exception
             throw new Exception("Browser is not correct");
         }
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
 
     }
 

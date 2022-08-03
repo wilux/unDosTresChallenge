@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88080f5a-619b-4bdd-843f-bd3e6f3a8d2b" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/C__Users_floresnes_IdeaProjects_unDosTresChallenge_src_test_java_tests_TestNG_xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/config/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Tests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ValidChargeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ValidChargeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="4" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -35,21 +40,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/nesto/IdeaProjects/unDosTresChallenge/src/test/java/tests"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\nesto\IdeaProjects\unDosTresChallenge\src\test\java\tests" />
       <recent name="C:\Users\nesto\IdeaProjects\unDosTresChallenge" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\floresnes\IdeaProjects\unDosTresChallenge" />
+      <recent name="C:\Users\floresnes\IdeaProjects\unDosTresChallenge\src" />
+      <recent name="C:\Users\floresnes\IdeaProjects\unDosTresChallenge\src\test" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/nesto/IdeaProjects/unDosTresChallenge/src/test/java/tests/Tests.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/floresnes/IdeaProjects/unDosTresChallenge/src/test/java/tests/TestNG.xml">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/nesto/IdeaProjects/unDosTresChallenge/src/test/java/tests/Tests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="unDosTresChallenge" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/tests/Tests.xml" />
@@ -97,9 +116,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/nesto/IdeaProjects/unDosTresChallenge/src/test/java/tests/Tests.xml" />
-        <item itemvalue="TestNG.ValidChargeTest" />
         <item itemvalue="TestNG.ValidChargeTest.validDataCharge" />
+        <item itemvalue="TestNG.ValidChargeTest" />
+        <item itemvalue="TestNG.C:/Users/nesto/IdeaProjects/unDosTresChallenge/src/test/java/tests/Tests.xml" />
       </list>
     </recent_temporary>
   </component>
