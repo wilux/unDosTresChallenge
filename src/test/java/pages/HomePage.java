@@ -14,20 +14,14 @@ public class HomePage {
 
 
     private By inputCelPhone = By.xpath ( "//*[@name='mobile']" );
-
     private By selectOperator = By.xpath ( "//*[@name='operator']" );
-
-
     private By buttonNext = By.xpath ( "(//button[text()='Siguiente'])[1]" );
-
-
     private By inputCardNumber = By.id ( "cardnumberunique" );
     private By inputCardMonth = By.xpath ( "//input[attribute::data-qa='mes-input']" );
     private By inputCardYear = By.xpath ( "//input[attribute::data-qa='expyear-input']" );
     private By inputCardMCvv = By.xpath ( "//input[attribute::data-qa='cvv-input']" );
     private By inputMail = By.cssSelector ( ".email" );
     private By buttonPaymentMethod = By.xpath ( "//button[@id='paylimit']/span[@class='PaymentMethod']" );
-
     private By inputUsername = By.id ( "usrname" );
     private By inputPassword = By.id ( "psw" );
     private By frameReCaptcha = By.xpath ( "//iframe[starts-with(@name, 'a-') and starts-with(@src, 'https://www.google.com/recaptcha')]" );
@@ -77,11 +71,7 @@ public class HomePage {
     public void selectCrediCardOption(String option) throws InterruptedException {
         new WebDriverWait ( driver, Duration.ofSeconds ( 10 ) ).until ( ExpectedConditions.elementToBeClickable ( By.xpath ( "//span[text()='" + option + "']" ) ) );
         driver.findElement ( By.xpath ( "//span[text()='" + option + "']" ) ).click ();
-
-//        Thread.sleep(2000);
-//        driver.findElement(By.xpath("//span[text()='"+option+"']")).click();
-
-
+        
     }
 
     public void writeCrediCard(String numbers, String mm, String yy, String cvv) {
@@ -128,7 +118,6 @@ public class HomePage {
     }
 
     public String getSuccessFullMsg() {
-        ////*[@id="wzrk-confirm"]
         return driver.findElement ( By.cssSelector ( ".visual-message" ) ).getText ();
     }
 
