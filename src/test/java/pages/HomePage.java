@@ -49,9 +49,11 @@ public class HomePage {
         driver.findElement(inputCelPhone).sendKeys(number);
     }
 
-    private void selectOperator(String operator){
+    private void selectOperator(String operator)  {
         driver.findElement(selectOperator).click();
+
         driver.findElement(By.xpath("//b[text()='"+operator+"']")).click();
+
     }
 
     private void selectAmount(String amount){
@@ -76,11 +78,12 @@ public class HomePage {
     }
 
     public void selectCrediCardOption(String option) throws InterruptedException {
-        new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text()='"+option+"']")));
-        driver.findElement(By.xpath("//span[text()='"+option+"']")).click();
+//        new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text()='"+option+"']")));
+//        driver.findElement(By.xpath("//span[text()='"+option+"']")).click();
 
-//        Thread.sleep(2000);
+        Thread.sleep(2000);
 //        driver.findElement(By.xpath("//span[text()='Usar nueva tarjeta']")).click();
+        driver.findElement(By.xpath("//span[text()='"+option+"']")).click();
 
 
     }
@@ -116,11 +119,13 @@ public class HomePage {
 
 
     public void doPopupLogin(String userEmail, String password) throws InterruptedException {
+        new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(inputUsername));
         driver.findElement(inputUsername).sendKeys(userEmail);
         driver.findElement(inputPassword).sendKeys(password);
         driver.switchTo().frame(driver.findElement(frameReCaptcha));
         driver.findElement(checkReCaptcha).click();
         driver.switchTo().defaultContent();
+        new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(buttonLogin));
         driver.findElement(buttonLogin).click();
 
     }
@@ -135,7 +140,7 @@ public class HomePage {
     }
 
 
-    public void doCelPhoneCharge(String phoneNumber, String operator, String amount ){
+    public void doCelPhoneCharge(String phoneNumber, String operator, String amount )  {
         writePhoneNumber(phoneNumber);
         selectOperator(operator);
         selectAmount(amount);

@@ -15,15 +15,15 @@ public class ValidChargeTest extends BaseTest {
 
 
     @Test(priority = 0)
-    public void DataCharge()  {
+    public void dataCharge()  {
         HomePage homePage = new HomePage(driver);
         driver.get(homeUrl);
         driver.manage().window().maximize();
         homePage.doCelPhoneCharge("8465433546", "Telcel", amount);
-        Assert.assertTrue(homePage.modalPayMethod());
+        Assert.assertTrue(true);
     }
 
-    @Test(priority = 1, dependsOnMethods = "DataCharge")
+    @Test(priority = 1, dependsOnMethods = "dataCharge")
     public void payment() throws InterruptedException {
         HomePage homePage = new HomePage(driver);
         homePage.selectPaymentMethod("Tarjeta");
@@ -33,7 +33,6 @@ public class ValidChargeTest extends BaseTest {
         homePage.clickPayButton();
         Assert.assertTrue(homePage.popupLogin());
     }
-
     @Test(priority = 2, dependsOnMethods = "payment")
     public void popupRegister() throws InterruptedException {
         HomePage homePage = new HomePage(driver);
