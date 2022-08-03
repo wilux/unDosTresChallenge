@@ -20,7 +20,7 @@ public class ValidChargeTest extends BaseTest {
         driver.get(homeUrl);
         driver.manage().window().maximize();
         homePage.doCelPhoneCharge("8465433546", "Telcel", amount);
-        Assert.assertTrue(true);
+        Assert.assertTrue( homePage.modalPayMethod ());
     }
 
     @Test(priority = 1, dependsOnMethods = "dataCharge")
