@@ -2,6 +2,11 @@
 # Automation Engineer Proficiency Exercise:
 
 
+#Video Demo running automation script
+https://user-images.githubusercontent.com/850505/182755357-108ad285-f0c3-403a-a3da-2c15486d282d.mp4
+
+
+
 #Overview :
 
 The purpose of this exercise is to assess the candidate automation developer’s technical proficiency, coding knowledge and style. The exercise involves building a basic automation framework for web application. The exercise will be evaluated on coding style, understanding of programming concepts, choice of techniques and quality of the final product.
