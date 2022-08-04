@@ -22,7 +22,7 @@ public class BaseTest {
             //create firefox instance
             System.setProperty ( "webdriver.gecko.driver", "webdriver/geckodriver.exe" );
             driver = new FirefoxDriver ();
-            driver.manage ().timeouts ().implicitlyWait ( Duration.ofSeconds ( 10 ) );
+            driver.manage ().timeouts ().implicitlyWait ( Duration.ofSeconds ( 20 ) );
         }
         //Check if parameter passed as 'chrome'
         else if ( browser.equalsIgnoreCase ( "chrome" ) ) {
@@ -30,7 +30,7 @@ public class BaseTest {
             System.setProperty ( "webdriver.chrome.driver", "webdriver/chromedriver.exe" );
             //create chrome instance
             driver = new ChromeDriver ();
-            driver.manage ().timeouts ().implicitlyWait ( Duration.ofSeconds ( 10 ) );
+            driver.manage ().timeouts ().implicitlyWait ( Duration.ofSeconds ( 20 ) );
         }
         //Check if parameter passed as 'Edge'
         else if ( browser.equalsIgnoreCase ( "Edge" ) ) {
@@ -38,7 +38,7 @@ public class BaseTest {
             System.setProperty ( "webdriver.edge.driver", "webdriver/msedgedriver.exe" );
             //create Edge instance
             driver = new EdgeDriver ();
-            driver.manage ().timeouts ().implicitlyWait ( Duration.ofSeconds ( 10 ) );
+            driver.manage ().timeouts ().implicitlyWait ( Duration.ofSeconds ( 20 ) );
         }
         else {
             //If no browser passed throw exception

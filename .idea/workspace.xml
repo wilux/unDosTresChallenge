@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88080f5a-619b-4bdd-843f-bd3e6f3a8d2b" name="Changes" comment="delete IEDriverServer.exe for not use">
+    <list default="true" id="88080f5a-619b-4bdd-843f-bd3e6f3a8d2b" name="Changes" comment="chrome support tests">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/config/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ValidDataChargeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ValidDataChargeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +31,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
-    <option name="projectConfigVersion" value="4" />
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,55 +45,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="rearrange.code.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="actions.on.save" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nesto/IdeaProjects/unDosTresChallenge/src/test/java/tests&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\nesto\IdeaProjects\unDosTresChallenge\src\test\java\tests" />
       <recent name="C:\Users\nesto\IdeaProjects\unDosTresChallenge" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\floresnes\IdeaProjects\unDosTresChallenge" />
-      <recent name="C:\Users\floresnes\IdeaProjects\unDosTresChallenge\src" />
-      <recent name="C:\Users\floresnes\IdeaProjects\unDosTresChallenge\src\test" />
-    </key>
   </component>
-  <component name="RunManager" selected="TestNG.ValidDataChargeTest">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/floresnes/IdeaProjects/unDosTresChallenge/TestNG.xml" type="TestNG" singleton="false" nameIsGenerated="true">
-      <module name="unDosTresChallenge" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C:/Users/nesto/IdeaProjects/unDosTresChallenge/src/test/java/tests/Tests.xml">
     <configuration name="C:/Users/nesto/IdeaProjects/unDosTresChallenge/src/test/java/tests/Tests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="unDosTresChallenge" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/tests/Tests.xml" />
@@ -100,7 +72,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidDataChargeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidChargeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="unDosTresChallenge" />
       <extension name="coverage">
         <pattern>
@@ -109,7 +81,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ValidDataChargeTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.ValidChargeTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -117,7 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidDataChargeTest.validDataCharge" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidChargeTest.validDataCharge" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="unDosTresChallenge" />
       <extension name="coverage">
         <pattern>
@@ -126,7 +98,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ValidDataChargeTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.ValidChargeTest" />
       <option name="METHOD_NAME" value="validDataCharge" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -137,9 +109,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ValidDataChargeTest" />
-        <item itemvalue="TestNG.ValidDataChargeTest.validDataCharge" />
         <item itemvalue="TestNG.C:/Users/nesto/IdeaProjects/unDosTresChallenge/src/test/java/tests/Tests.xml" />
+        <item itemvalue="TestNG.ValidChargeTest" />
+        <item itemvalue="TestNG.ValidChargeTest.validDataCharge" />
       </list>
     </recent_temporary>
   </component>
@@ -159,35 +131,7 @@
       <option name="project" value="LOCAL" />
       <updated>1659498720356</updated>
     </task>
-    <task id="LOCAL-00002" summary="fix TestNG">
-      <created>1659524906498</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1659524906498</updated>
-    </task>
-    <task id="LOCAL-00003" summary="fix paymentMethod">
-      <created>1659529618159</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1659529618159</updated>
-    </task>
-    <task id="LOCAL-00004" summary="add documentation">
-      <created>1659533631046</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1659533631046</updated>
-    </task>
-    <task id="LOCAL-00005" summary="delete IEDriverServer.exe for not use">
-      <created>1659534889059</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1659534889059</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,10 +147,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <MESSAGE value="fix TestNG" />
-    <MESSAGE value="fix paymentMethod" />
-    <MESSAGE value="add documentation" />
-    <MESSAGE value="delete IEDriverServer.exe for not use" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete IEDriverServer.exe for not use" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
