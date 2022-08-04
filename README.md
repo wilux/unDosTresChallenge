@@ -5,6 +5,8 @@
 #Video Demo running automation script
 <video src='[https://user-images.githubusercontent.com/850505/182755357-108ad285-f0c3-403a-a3da-2c15486d282d.mp4](https://user-images.githubusercontent.com/850505/182755357-108ad285-f0c3-403a-a3da-2c15486d282d.mp4)' width=180/>
 
+[![Demo CountPages alpha](https://user-images.githubusercontent.com/850505/182755357-108ad285-f0c3-403a-a3da-2c15486d282d.mp4)](https://user-images.githubusercontent.com/850505/182755357-108ad285-f0c3-403a-a3da-2c15486d282d.mp4)
+
 
 #Overview :
 
